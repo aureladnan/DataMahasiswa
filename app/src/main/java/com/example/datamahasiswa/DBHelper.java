@@ -1,5 +1,4 @@
 package com.example.datamahasiswa;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Hashtable;
@@ -53,7 +52,8 @@ public class DBHelper extends SQLiteOpenHelper {
             return numRows;
         }
 
-            public ArrayList<String> getAllCotacts () {
+            public ArrayList<String> getAllCotacts()
+        {
             ArrayList<String> array_list = new ArrayList<String>();
 
             //hp = new HashMap();         SQLiteDatabase db = this.getReadableDatabase();         Cursor res =  db.rawQuery( "select * from mahasiswa", null );         res.moveToFirst();
